@@ -19,7 +19,7 @@ Dichotomous Image Segmentation (DIS) with rich fine-grained details within a sin
 ### 2.2. Framework Overview
 
 <p>
-  <img src="https://github.com/chasecjg/FSANet/blob/main/Figuress/FSANet.pdf" alt="FSANet Architecture">
+  <img src="hhttps://github.com/chasecjg/FSANet/tree/main/Figures/FSANet.pdf" alt="FSANet Architecture">
   <br>
   <em>Figure 3: Architecture Overview</em>
 </p>
@@ -29,7 +29,7 @@ Dichotomous Image Segmentation (DIS) with rich fine-grained details within a sin
 ### 2.3. Qualitative Results
 
 <p>
-    <img src="https://github.com/chasecjg/FSANet/blob/main/Figuress/Qualitative comparison.pdf" alt="alitative Results">
+    <img src="https://github.com/chasecjg/FSANet/tree/main/Figures/Qualitative comparison.pdf" alt="alitative Results">
     <br>
     <em> 
     Figure 2: Qualitative Results.
