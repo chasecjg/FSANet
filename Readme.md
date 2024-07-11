@@ -65,7 +65,7 @@ double 3090 GPU of 24 GB Memory.
 1. Testing Configuration:
 
     + After you download all the pre-trained model and testing dataset, just run `test.py` to generate the final prediction map: 
-    replace your trained model directory (`--pth_path`). -->
+    replace your trained model directory (`--pth_path`).
 
 1. Comparing with your model:
     + We provide visualizations images that you can download form [(Google Drive)](https://drive.google.com/file/d/1YulLz9L9dBKUdOFn-3zmp2Xg88UlAzr2/view?usp=drive_link) or [(Baidudisk)](https://pan.baidu.com/s/1Q5fEdBRH_xVkagVribM9Hg?pwd=bix2)
