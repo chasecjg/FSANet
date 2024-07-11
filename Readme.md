@@ -23,7 +23,7 @@ Dichotomous Image Segmentation (DIS) with rich fine-grained details within a sin
 <p>
   <img src="https://raw.githubusercontent.com/chasecjg/FSANet/main/Figures/FSANet.jpg" alt="FSANet Architecture">
   <br>
-  <em>Figure 3: Architecture Overview</em>
+  <em>Figure 1: Architecture Overview</em>
 </p>
 
 ### 2.3. Qualitative Results
@@ -47,37 +47,36 @@ double 3090 GPU of 24 GB Memory.
     
     + Creating a virtual environment in terminal: `conda create -n FSANet python=3.8`.
     
-    + Installing necessary packages: `pip install -r requirements.txt`. (PS: You can also select some of these packages to install.)
+    + Installing necessary packages: `pip install -r requirements.txt`. (PS: You can also select some of these packages to install that you need.)
 
-<!-- 1. Downloading necessary data:
+1. Downloading necessary data:
 
-    + downloading training/testing dataset and move it into `./data/`, 
-    which can be found in this [(Google Drive)](https://drive.google.com/file/d/1c0ToIqKMgaDyMT4YnS61toE0evAcnfck/view?usp=sharing) or [(BaiduNetdisk)](https://pan.baidu.com/s/1O-dqlpUX0V94kDSPt3Uu8Q?pwd=BCMN) 
-(Extracted code：BCMN).
+    + downloading training/testing dataset and move it into `data`, 
+    which can be found in this [(Google Drive)](https://drive.google.com/file/d/1O1eIuXX1hlGsV7qx4eSkjH231q7G1by1/view?usp=sharing).
     
-    + downloading pretrained weights and move it into `./checkpoints/BCMNet.pth`, 
-    which can be found in this [(Google Drive)](https://drive.google.com/file/d/1KZ53pNHXJXJma2vHHpFF7X5bwQcWK0kf/view?usp=sharing) or [(BaiduNetdisk)](https://pan.baidu.com/s/1eOg9acG6CrXWSzi9fuuKRA?pwd=BCMN) 
-(Extracted code：BCMN).
-    
-    + downloading ResNet weights and move it into `./models/res2net50_v1b_26w_4s-3cf99910.pth`[(Google Drive)](https://drive.google.com/file/d/1ITW3_ZBBv2JTviskxO9zfiqlaQ9Nlj-J/view?usp=sharing) or [(BaiduNetdisk)](https://pan.baidu.com/s/11KWZfuCU15GC6tUxUxX4Nw?pwd=BCMN) 
-(Extracted code：BCMN). -->
 
-<!-- 1. Training Configuration:
 
-    + Assigning your costumed path, like `--train_save` and `--train_path` in `MyTrain.py`.
-    + I modify the total epochs and the learning rate decay method (lib/utils.py has been updated), so there are differences from the training setup reported in the paper. Under the new settings, the training performance is more stable.
+    + downloading Res2Net weights and move it into `./models/res2net50_v1b_26w_4s-3cf99910.pth`[(Google Drive)](https://drive.google.com/file/d/1ITW3_ZBBv2JTviskxO9zfiqlaQ9Nlj-J/view?usp=sharing) or [(BaiduNetdisk)](https://pan.baidu.com/s/11KWZfuCU15GC6tUxUxX4Nw?pwd=BCMN) 
+    + downloading pvt-v2 weights and move it into `./FSANet/pvt_v2_b2.pth`[(Google Drive)](https://drive.google.com/file/d/1snw4TYUCD5z4d3aaId1iBdw-yUKjRmPC/view?usp=drive_link) or [(BaiduNetdisk)](https://pan.baidu.com/s/1TgxxOGSTuEk4jTtgkZIewA?pwd=1ysw) 
+
+1. Training Configuration:
+
+    + Assigning your costumed path, like `--train_save` and `--train_path` in `train.py`.
 
 1. Testing Configuration:
 
-    + After you download all the pre-trained model and testing dataset, just run `MyTest.py` to generate the final prediction map: 
+    + After you download all the pre-trained model and testing dataset, just run `test.py` to generate the final prediction map: 
     replace your trained model directory (`--pth_path`). -->
 
-<!-- ### 3.2 Evaluating your trained model: -->
+1. Comparing with your model:
+    + We provide visualizations images that you can download form [(Google Drive)](https://drive.google.com/file/d/1YulLz9L9dBKUdOFn-3zmp2Xg88UlAzr2/view?usp=drive_link) or [(Baidudisk)](https://pan.baidu.com/s/1Q5fEdBRH_xVkagVribM9Hg?pwd=bix2)
+ 
+### 3.2 Evaluating your trained model:
 
-<!-- One-key evaluation is written in python code (revised from [link](https://github.com/lartpang/PySODMetrics)) -->
+One-key evaluation is written in python code (revised from [link](https://github.com/lartpang/PySODMetrics))
 
 
-<!-- ## 4. Citation -->
+## 4. Citation
 
 
 **[⬆ back to top](#1-preface)**
