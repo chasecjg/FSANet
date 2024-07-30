@@ -1,7 +1,7 @@
 # High-Precision Dichotomous Image Segmentation with Frequency and Scale Awareness (TNNLs-2024)
 
 > **Authors:** 
-> Qiuping Jiang
+> Qiuping Jiang,
 > Jinguang Cheng<sup>*</sup>,
 > Zongwei Wu,
 > Qiuping Jiang,
