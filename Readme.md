@@ -2,7 +2,7 @@
 
 > **Authors:** 
 > Qiuping Jiang
-> Jinguang Cheng,
+> Jinguang Cheng^{*},
 > Zongwei Wu,
 > Qiuping Jiang,
 > Radu Timofte.
