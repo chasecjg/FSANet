@@ -4,7 +4,7 @@
 > Qiuping Jiang,
 > Jinguang Cheng<sup>*</sup>,
 > Zongwei Wu,
-> Qiuping Jiang,
+> Runmin Cong,
 > Radu Timofte.
 
 ## 1. Preface
