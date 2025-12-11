@@ -21,7 +21,7 @@
 ## 📌 2. Overview
 
 ### 2.1. Introduction
-Dichotomous Image Segmentation (DIS) with rich fine-grained details within a single image is a challenging task. Despite the plausible results achieved by deep learning-based methods, most of them fail to segment generic objects when the boundary is cluttered with the background. In fact, the gradual decrease in feature map resolution during the encoding stage and the misleading texture clue may be the main issues. To handle these issues, we devise a novel frequency- and scale-aware deep neural network (FSANet) for high-precision DIS. The core of our proposed FSANet is twofold. First, a multi-modality fusion (MF) module that integrates the information in spatial and frequency domains is adopted to enhance the representation capability of image features. Second, a collaborative scale fusion module (CSFM) which deviates from the traditional serial structures is introduced to maintain high resolution during the entire feature encoding stage. In the decoder side, we introduce hierarchical context fusion (HCF) and selective feature fusion (SFF) modules to infer the segmentation results from the output features of the CSFM module. We conduct extensive experiments on several benchmark datasets and compare our proposed method with existing SOTA methods. The experimental results demonstrate that our FSANet achieves superior performance both qualitatively and quantitatively.
+Dichotomous Image Segmentation (DIS) with rich fine-grained details within a single image is a challenging task. Despite the plausible results achieved by deep learning-based methods, most of them fail to segment generic objects when the boundary is cluttered with the background. In fact, the gradual decrease in feature map resolution during the encoding stage and the misleading texture clue may be the main issues. To handle these issues, we devise a novel frequency- and scale-aware deep neural network (FSANet) for high-precision DIS. The core of our proposed FSANet is twofold. First, a multi-modality fusion (MF) module that integrates the information in spatial and frequency domains is adopted to enhance the representation capability of image features. Second, a collaborative scale fusion module (CSFM), which deviates from the traditional serial structures, is introduced to maintain high resolution during the entire feature encoding stage. On the decoder side, we introduce hierarchical context fusion (HCF) and selective feature fusion (SFF) modules to infer the segmentation results from the output features of the CSFM module. We conduct extensive experiments on several benchmark datasets and compare our proposed method with existing SOTA methods. The experimental results demonstrate that our FSANet achieves superior performance both qualitatively and quantitatively.
 
 ---
 
@@ -55,7 +55,7 @@ Dichotomous Image Segmentation (DIS) with rich fine-grained details within a sin
 git clone https://github.com/chasecjg/FSANet.git
 cd FSANet
 
-# Create and activate virtual environment
+# Create and activate a virtual environment
 conda create -n FSANet python=3.12
 conda activate FSANet
 
@@ -96,14 +96,14 @@ python test.py --pth_path "path/to/your/trained/model"
 
 
 ### 3.5 Model Comparison
-📊 **Visualization Data**: We provide visualizations images that you can download form:
+📊 **Visualization Data**: We provide visualization images of our model that you can download from:
 > - [Google Drive](https://drive.google.com/file/d/1YulLz9L9dBKUdOFn-3zmp2Xg88UlAzr2/view?usp=drive_link)
 > - [Baidu Netdisk](https://pan.baidu.com/s/1Q5fEdBRH_xVkagVribM9Hg?pwd=bix2)
 
 ---
 
 ### 4 Evaluating your trained model:
-> **Evaluation Tool**: One-key evaluation is written in python code (revised from [link](https://github.com/lartpang/PySODMetrics))
+> **Evaluation Tool**: One-key evaluation is written in Python code (revised from [link](https://github.com/lartpang/PySODMetrics))
 
 
 
@@ -124,5 +124,7 @@ python test.py --pth_path "path/to/your/trained/model"
   doi={10.1109/TNNLS.2024.3426529}}
 ````
 
+
+### 📫 Welcome to star, fork and collaborate!
 
 **[⬆ back to top](#1-preface)**
