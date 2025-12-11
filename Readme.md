@@ -46,10 +46,10 @@ Dichotomous Image Segmentation (DIS) with rich fine-grained details within a sin
 
 
 ---
-### 3 Quick Start
+## 3 Quick Start
 > **Experimental Setup**: The training and testing experiments are conducted using [PyTorch](https://github.com/pytorch/pytorch) with double 3090 GPU of 24 GB Memory.
 ---
-#### 3.1. Configuring your environment (Prerequisites):
+### 3.1. Configuring your environment (Prerequisites):
 ```bash
 # Clone the repository
 git clone https://github.com/chasecjg/FSANet.git
@@ -102,7 +102,7 @@ python test.py --pth_path "path/to/your/trained/model"
 
 ---
 
-### 4 Evaluating your trained model:
+## 4 Evaluating your trained model:
 > **Evaluation Tool**: One-key evaluation is written in Python code (revised from [link](https://github.com/lartpang/PySODMetrics))
 
 
@@ -124,7 +124,7 @@ python test.py --pth_path "path/to/your/trained/model"
   doi={10.1109/TNNLS.2024.3426529}}
 ````
 
-
-### 📫 Welcome to star, fork and collaborate!
+---
+## 📫 Welcome to star, fork and collaborate!
 
 **[⬆ back to top](#1-preface)**
