@@ -51,4 +51,8 @@ urllib3==2.2.2
 Werkzeug==3.0.3                 
 wheel==0.43.0                   
 wincertstore==0.2
+<<<<<<< HEAD
 zipp==3.19.2                    
+=======
+zipp==3.19.2                    
+>>>>>>> fc594043d6242e619a451c308b5ffffe02cf0f52

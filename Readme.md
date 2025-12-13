@@ -64,6 +64,7 @@ pip install -r requirements.txt
 ```
 ---
 
+<<<<<<< HEAD
 
 ### 3.2 Downloading necessary data
 | Data Type | Target Path | Download Links |
@@ -75,6 +76,17 @@ pip install -r requirements.txt
 
 > ⚠️ **Attention**: Ensure the file names and paths are strictly consistent with the above to avoid runtime errors.
 
+=======
+
+### 3.2 Downloading necessary data
+| Data Type | Target Path | Download Links |
+|:---------|:------------|:---------------|
+| 📁 Training/Testing Dataset | `./data/` | [Google Drive](https://drive.google.com/file/d/1O1eIuXX1hlGsV7qx4eSkjH231q7G1by1/view?usp=sharing) |
+| 📦 Res2Net Pre-trained Weights | `./models/res2net50_v1b_26w_4s-3cf99910.pth` | [Google Drive](https://drive.google.com/file/d/1ITW3_ZBBv2JTviskxO9zfiqlaQ9Nlj-J/view?usp=sharing) <br> [Baidu Netdisk](https://pan.baidu.com/s/11KWZfuCU15GC6tUxUxX4Nw?pwd=BCMN) |
+| 📦 PVT-v2 Pre-trained Weights | `./FSANet/pvt_v2_b2.pth` | [Google Drive](https://drive.google.com/file/d/1snw4TYUCD5z4d3aaId1iBdw-yUKjRmPC/view?usp=drive_link) <br> [Baidu Netdisk](https://pan.baidu.com/s/1TgxxOGSTuEk4jTtgkZIewA?pwd=1ysw) |
+
+> ⚠️ **Attention**: Ensure the file names and paths are strictly consistent with the above to avoid runtime errors.
+>>>>>>> fc594043d6242e619a451c308b5ffffe02cf0f52
 ---
 
 ### 3.3 Training Configuration
