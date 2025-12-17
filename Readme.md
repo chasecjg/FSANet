@@ -15,7 +15,8 @@
 
 ## 📋 1. Preface
 - This repository provides code for **"High-Precision Dichotomous Image Segmentation with Frequency and Scale Awareness"**, TNNLS 2024
-- 📄 [Paper Link](https://ieeexplore.ieee.org/document/10638122)
+- 📄 [Paper download from IEEE](https://ieeexplore.ieee.org/document/10638122)
+- 📄 [Paper download from this repo](https://github.com/chasecjg/FSANet/blob/main/paper/High-Precision%20Dichotomous%20Image%20Segmentation%20With%20Frequency%20and%20Scale%20Awareness.pdf)
 ---
 
 ## 📌 2. Overview
@@ -96,7 +97,7 @@ python test.py --pth_path "path/to/your/trained/model"
 ```
 
 
-### 3.5 Model Comparison
+### 3.5 Visualization
 📊 **Visualization Data**: We provide visualization images of our model that you can download from:
 > - [Google Drive](https://drive.google.com/file/d/1YulLz9L9dBKUdOFn-3zmp2Xg88UlAzr2/view?usp=drive_link)
 > - [Baidu Netdisk](https://pan.baidu.com/s/1Q5fEdBRH_xVkagVribM9Hg?pwd=bix2)
